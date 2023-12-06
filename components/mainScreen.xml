@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component name="MainScreen" extends="Scene">
+
+    <script type="text/brightscript" uri="mainScreen.brs" />
+
+    <children>
+
+      
+           <layoutGroup   
+          id="firstScreen" 
+          layoutDirection="horiz"
+          visible="true"
+          translation="[200,30]" 
+          height="50" 
+          width="200"
+          color="0xFF0000" 
+          font="font:LargeBoldSystemFont"  >
+    
+        <Poster 
+              id="head"
+             uri="pkg:/images/head.png" 
+             width="1700" 
+             height="300" 
+             translation="[5,5]"/>
+        </layoutGroup>
+        
+      
+
+       
+    </children>
+</component>
