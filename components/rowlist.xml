@@ -1,0 +1,40 @@
+
+<component name = "RowListItem" extends = "Group" >
+
+ <interface >
+    <field id = "itemContent" type = "node" onChange = "showcontent" />
+    <field id = "focusPercent" type = "float" onChange = "showfocus" />
+    <field id = "rowFocusPercent" type = "float" onChange = "showrowfocus" />
+  </interface>
+ 
+  <script type = "text/brightscript" >
+  </script>
+
+
+ <children >
+         <Poster 
+             id="advengers"
+             uri="pkg:/images/advengers.jpg" 
+             width="400" 
+             height="300" 
+             translation="[5,5]"/>
+        <Poster 
+             id="capitanAmeric"
+             uri="pkg:/images/capitanAmeric.jpg" 
+             width="400" 
+             height="300" 
+             translation="[500,5]"/>
+        <Poster 
+             id="hulk"
+             uri="pkg:/images/hulk.jpg" 
+             width="400" 
+             height="300" 
+             translation="[1000,5]"/>
+        <Poster 
+             id="ironman"
+             uri="pkg:/images/ironman.jpg" 
+             width="400" 
+             height="300" 
+             translation="[1500,5]"/>
+       </children>
+       </component>
