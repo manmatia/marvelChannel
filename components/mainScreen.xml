@@ -5,13 +5,46 @@
     <script type="text/brightscript" uri="mainScreen.brs" />
 
     <children>
-            <Label 
-                    id="texto2" 
-                    visible="true"
-                    text="Películas"
-                    color="0xFF0000" 
-                    translation="[200,350]" 
-                    />
+       
+       <RowList 
+            id = "selectMarvel" 
+            translation = "[ 130, 160 ]" 
+            itemComponentName = "Channel of Marvel" 
+            numRows = "4" 
+            itemSize = "[ 1608, 308 ]" 
+            rowItemSize = "[ [500, 500] ]" 
+            itemSpacing = "[ 0, 20 ]" 
+            showRowLabel = "[ true ]" 
+            drawFocusFeedback = "false" 
+            vertFocusAnimationStyle = "fixedFocusWrap" 
+            rowFocusAnimationStyle = "fixedFocusWrap" >
+        
+         <Poster 
+             id="advengers"
+             uri="pkg:/images/advengers.jpg" 
+             width="400" 
+             height="300" 
+             translation="[5,5]"/>
+        <Poster 
+             id="capitanAmeric"
+             uri="pkg:/images/capitanAmeric.jpg" 
+             width="400" 
+             height="300" 
+             translation="[5,5]"/>
+        <Poster 
+             id="hulk"
+             uri="pkg:/images/hulk.jpg" 
+             width="400" 
+             height="300" 
+             translation="[5,5]"/>
+        <Poster 
+             id="ironman"
+             uri="pkg:/images/ironman.jpg" 
+             width="400" 
+             height="300" 
+             translation="[5,5]"/>
+        
+        </RowList>
 
        
     </children>
