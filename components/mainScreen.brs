@@ -1,5 +1,5 @@
 sub init()
-  m.top.backgroundURI = "pkg:/images/rsgde_bg_hd.jpg"
+  m.top.backgroundURI = "pkg:/images/caphd.jpeg"
 
   rowlist = m.top.findNode("marvelRowList")
 
