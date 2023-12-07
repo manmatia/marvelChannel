@@ -8,7 +8,7 @@ sub Main()
     
     scene = screen.CreateScene("MainScreen")
     scene.backgroundColor = ""
-    scene.backgroundUri = ""
+    scene.backgroundUri = "pkg:/images/caphd.jpeg"
     
   
     ' Mostrar la pantalla
