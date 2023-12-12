@@ -6,9 +6,9 @@ sub Main()
     m.port = CreateObject("roMessagePort")
     screen.setMessagePort(m.port)
     
-    scene = screen.CreateScene("mainScreen")
+    scene = screen.CreateScene("MainScreen")
     scene.backgroundColor = ""
-    scene.backgroundUri = ""
+    scene.backgroundUri = "pkg:/images/caphd.jpeg"
     
   
     ' Mostrar la pantalla

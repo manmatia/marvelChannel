@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "utf-8" ?> 
+<component name = "RowListContentPerfil" extends = "ContentNode" >
+
+  <children >
+
+    <ContentNode title = "⭐️ usuario ⭐️" >
+      <ContentNode 
+        HDPosterUrl = "https://www.wallpapers13.com/wp-content/uploads/2017/03/Marvel-Captain-America-Chris-Evans-The-Avengers-Age-of-Ultron-Movie-Wallpaper-HD-For-Desktop-1920x1080-1680x1050.jpg" 
+         title = "Caro " />
+      <ContentNode 
+        HDPosterUrl = "https://www.xtrafondos.com/wallpapers/resized/iron-man-8339.jpg?s=large" 
+        title = "Matias" />
+      <ContentNode 
+        HDPosterUrl = "https://img.ecartelera.com/noticias/71200/71279-h4.jpg"
+        title = "Farith" />
+      <ContentNode 
+        HDPosterUrl = "https://www.xtrafondos.com/wallpapers/resized/hulk-en-avengers-1684.jpg?s=large" 
+        title = "Add" />
+    </ContentNode>
+
+ 
+
+  </children>
+
+</component>
