@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "utf-8" ?> 
+<component name = "RowListItemPerfil" extends = "Group" >
+ 
+  <interface > 
+    <field id = "itemContentPerfil" type = "node" onChange = "showcontentPerfil"/>
+    <field id = "focusPercentPerfil" type = "float" onChange = "showfocusPerfil"/> 
+    <field id = "rowFocusPercentPerfil" type = "float" onChange = "showrowfocusPerfil"/>
+  </interface>
+ 
+  <script type = "text/brightscript" uri="rowListItem.brs"/>
+
+  <children >
+
+    <Poster 
+      id = "itemPosterPerfil" 
+      translation = "[ 10, 10 ]" 
+      width = "512" 
+      height = "288" 
+      scaleRotateCenter = "[ 256.0, 144.0 ]" >
+
+      <Rectangle 
+        id = "itemMaskPerfil" 
+        color = "0x000000FF" 
+        opacity = "0.75" 
+        width = "512" 
+        height = "288" 
+        scaleRotateCenter = "[ 256.0, 144.0 ]"/>
+
+    </Poster>
+
+    <Label 
+      id = "itemLabelPerfil" 
+      translation = "[ 20, 264 ]" 
+      horizAlign = "right" 
+      width = "492" 
+      opacity = "0.0"/>
+
+  </children>
+
+</component>
