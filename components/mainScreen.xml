@@ -7,7 +7,7 @@
     <children>
          <RowList 
       id = "perfilRowList" 
-      translation = "[ 130, 160 ]" 
+      translation = "[ 130, 760 ]" 
       itemComponentName = "RowListItemPerfil" 
       numRows = "2" 
       itemSize = "[ 1608, 308 ]" 
@@ -20,7 +20,7 @@
        
        <RowList 
       id = "marvelRowList" 
-      translation = "[ 130, 160 ]" 
+      translation = "[ 130, 60 ]" 
       itemComponentName = "RowListItem" 
       numRows = "2" 
       itemSize = "[ 1608, 308 ]" 
