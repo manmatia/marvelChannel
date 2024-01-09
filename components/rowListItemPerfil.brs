@@ -1,11 +1,12 @@
-sub init()
+sub init ()
   m.itemposterPerfil = m.top.findNode("itemPosterPerfil") 
   m.itemmaskPerfil = m.top.findNode("itemMaskPerfil")
   m.itemlabel = m.top.findNode("itemLabelPerfil")
+  ? itemposterPerfil + "itemposterperfil"
 end sub
 
 sub showcontentPerfil()
-  itemcontentPerfil = m.top.itemContentPerfil
+ 
   m.itemposterPerfil.uri = itemcontent.HDPosterUrl
   m.itemlabelPerfil.text = itemcontentPerfil.title
 end sub
