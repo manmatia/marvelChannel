@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-<component name="MainScreen" extends="Scene" initialFocus = "marvelRowList" >
+<component name="MainScreen" extends="Scene" initialFocus = "perfilRowList" >
 
     <script type="text/brightscript" uri="mainScreen.brs" />
 
